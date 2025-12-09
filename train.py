@@ -36,7 +36,7 @@ model = model.to(device)
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-4)
 
-step_size = 15000
+step_size = 20000
 
 for step in range(step_size):
 
